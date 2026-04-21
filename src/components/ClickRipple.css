@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+.click-ripple {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(192, 132, 252, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: ripple-expand 0.6s ease-out forwards;
+  z-index: 9999;
+  box-shadow: 0 0 15px rgba(192, 132, 252, 0.6);
+}
+
+@keyframes ripple-expand {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    box-shadow: 0 0 15px rgba(192, 132, 252, 0.6);
+  }
+  100% {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+    box-shadow: 0 0 5px rgba(192, 132, 252, 0);
+  }
+}
+=======
+.click-ripple {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(192, 132, 252, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: ripple-expand 0.6s ease-out forwards;
+  z-index: 9999;
+  box-shadow: 0 0 15px rgba(192, 132, 252, 0.6);
+}
+
+@keyframes ripple-expand {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    box-shadow: 0 0 15px rgba(192, 132, 252, 0.6);
+  }
+  100% {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+    box-shadow: 0 0 5px rgba(192, 132, 252, 0);
+  }
+}
+>>>>>>> 78b30b44027e2c4d262ea383c1c20c6909638bb3

@@ -1,0 +1,82 @@
+/* Global styles for animations and interactions */
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #c084fc 0%, #06b6d4 100%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #06b6d4 0%, #c084fc 100%);
+  box-shadow: 0 0 10px rgba(192, 132, 252, 0.5);
+}
+
+/* Selection */
+::selection {
+  background: rgba(192, 132, 252, 0.3);
+  color: #c084fc;
+}
+
+/* Link styles */
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #c084fc;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid #c084fc;
+  outline-offset: 2px;
+}
+
+/* Custom animations for elements */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer {
+  animation: shimmer 2s infinite;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  background-size: 1000px 100%;
+}
+
+/* Smooth transitions for all inputs and buttons */
+input,
+textarea,
+button {
+  transition: all 0.3s ease;
+}
+
+/* Line break styling */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(192, 132, 252, 0.3),
+    transparent
+  );
+}
