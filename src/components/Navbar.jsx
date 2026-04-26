@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
@@ -119,9 +118,7 @@ export default function Navbar() {
       )}
     </motion.nav>
   );
-}
-=======
-import { motion } from 'framer-motion';
+}import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -242,4 +239,3 @@ export default function Navbar() {
     </motion.nav>
   );
 }
->>>>>>> 78b30b44027e2c4d262ea383c1c20c6909638bb3

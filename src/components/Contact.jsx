@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { motion } from 'framer-motion';
 import React, { useState } from 'react';
 import { Mail, Phone, Navigation, Send, Share2 } from 'lucide-react';
@@ -311,9 +310,7 @@ export default function Contact() {
       </motion.div>
     </section>
   );
-}
-=======
-import { motion } from 'framer-motion';
+}import { motion } from 'framer-motion';
 import React, { useState } from 'react';
 import { Mail, Phone, Navigation, Send, Share2 } from 'lucide-react';
 
@@ -626,4 +623,3 @@ export default function Contact() {
     </section>
   );
 }
->>>>>>> 78b30b44027e2c4d262ea383c1c20c6909638bb3

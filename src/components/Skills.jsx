@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { motion } from 'framer-motion';
 import React, { useState, useEffect } from 'react';
 
@@ -178,9 +177,7 @@ export default function Skills() {
       </motion.div>
     </section>
   );
-}
-=======
-import { motion } from 'framer-motion';
+}import { motion } from 'framer-motion';
 import React, { useState, useEffect } from 'react';
 
 // Custom hook for intersection observer
@@ -360,4 +357,3 @@ export default function Skills() {
     </section>
   );
 }
->>>>>>> 78b30b44027e2c4d262ea383c1c20c6909638bb3

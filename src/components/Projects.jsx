@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { motion } from 'framer-motion';
 import React, { useState } from 'react';
 import { ExternalLink, Code } from 'lucide-react';
@@ -252,9 +251,7 @@ export default function Projects() {
       </motion.div>
     </section>
   );
-}
-=======
-import { motion } from 'framer-motion';
+}import { motion } from 'framer-motion';
 import React, { useState } from 'react';
 import { ExternalLink, Code } from 'lucide-react';
 import ecommerceImage from '../assets/1727277521.webp';
@@ -508,4 +505,3 @@ export default function Projects() {
     </section>
   );
 }
->>>>>>> 78b30b44027e2c4d262ea383c1c20c6909638bb3

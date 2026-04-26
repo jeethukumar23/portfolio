@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import { motion } from 'framer-motion';
 import React from 'react';
 
@@ -279,9 +279,7 @@ export default function About() {
       </motion.div>
     </section>
   );
-}
-=======
-import { motion } from 'framer-motion';
+}import { motion } from 'framer-motion';
 import React from 'react';
 
 // Custom hook for intersection observer
@@ -562,4 +560,4 @@ export default function About() {
     </section>
   );
 }
->>>>>>> 78b30b44027e2c4d262ea383c1c20c6909638bb3
+

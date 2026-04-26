@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { motion } from 'framer-motion';
 import React from 'react';
 import { Award, Trophy, Zap, Target } from 'lucide-react';
@@ -207,9 +206,7 @@ export default function Achievements() {
       </motion.div>
     </section>
   );
-}
-=======
-import { motion } from 'framer-motion';
+}import { motion } from 'framer-motion';
 import React from 'react';
 import { Award, Trophy, Zap, Target } from 'lucide-react';
 
@@ -418,4 +415,3 @@ export default function Achievements() {
     </section>
   );
 }
->>>>>>> 78b30b44027e2c4d262ea383c1c20c6909638bb3

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { motion } from 'framer-motion';
 
 export default function Footer() {
@@ -86,9 +85,7 @@ export default function Footer() {
       </motion.div>
     </footer>
   );
-}
-=======
-import { motion } from 'framer-motion';
+}import { motion } from 'framer-motion';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -176,4 +173,3 @@ export default function Footer() {
     </footer>
   );
 }
->>>>>>> 78b30b44027e2c4d262ea383c1c20c6909638bb3
