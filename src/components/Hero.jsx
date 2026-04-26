@@ -119,7 +119,7 @@ export default function Hero() {
           </motion.a>
 
           <motion.a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05, borderColor: '#06b6d4' }}
