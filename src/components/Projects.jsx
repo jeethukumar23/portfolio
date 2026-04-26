@@ -251,9 +251,5 @@ export default function Projects() {
       </motion.div>
     </section>
   );
-}import { motion } from 'framer-motion';
-  </motion.div>
-</section>
-  );
 }
 

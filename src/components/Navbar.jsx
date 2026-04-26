@@ -118,8 +118,4 @@ export default function Navbar() {
       )}
     </motion.nav>
   );
-}import { motion } from 'framer-motion';
-  </motion.div>
-</section>
-  );
 }
