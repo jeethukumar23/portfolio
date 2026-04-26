@@ -177,8 +177,4 @@ export default function Skills() {
       </motion.div>
     </section>
   );
-}import { motion } from 'framer-motion';
-  </motion.div>
-</section>
-  );
 }

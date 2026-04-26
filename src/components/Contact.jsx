@@ -310,9 +310,5 @@ export default function Contact() {
       </motion.div>
     </section>
   );
-}import { motion } from 'framer-motion';
-  </motion.div>
-</section>
-  );
 }
 
