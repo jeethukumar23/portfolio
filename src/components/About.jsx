@@ -243,14 +243,18 @@ export default function About() {
                     <h4 className="font-semibold text-neon-cyan mb-1">
                       Salesforce Certified AI Associate
                     </h4>
+                    <p className="text-gray-400 text-xs mb-1">Credential ID: 5179676</p>
                     <p className="text-gray-400 text-sm mb-2">October 2024</p>
-                    <motion.button
+                    <motion.a
+                      href="/portfolio/certificates/Salesforce.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1 text-xs bg-neon-purple/20 text-neon-purple rounded border border-neon-purple/30 hover:bg-neon-purple/30 transition-colors"
+                      className="inline-block px-3 py-1 text-xs bg-neon-purple/20 text-neon-purple rounded border border-neon-purple/30 hover:bg-neon-purple/30 transition-colors cursor-pointer"
                     >
-                      View Credential
-                    </motion.button>
+                      View Certificate
+                    </motion.a>
                   </div>
                 </div>
               </motion.div>
